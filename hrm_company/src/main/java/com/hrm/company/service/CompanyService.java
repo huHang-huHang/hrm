@@ -1,11 +1,10 @@
-package com.hrm.company.server;
+package com.hrm.company.service;
 
 import com.hrm.model.company.entity.Company;
-import org.apache.ibatis.annotations.Param;
 
 import java.util.List;
 
-public interface CompanyServer {
+public interface CompanyService {
     public int insert(Company company);
     public int delete(String id);
     public int update(Company company);

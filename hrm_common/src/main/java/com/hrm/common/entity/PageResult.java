@@ -26,6 +26,9 @@ public class PageResult<T> {
         this.rows = rows;
     }
 
+    public PageResult() {
+    }
+
     public PageResult(List<T> rows) {
         this.rows = rows;
     }

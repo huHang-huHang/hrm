@@ -1,7 +1,7 @@
-package com.hrm.company.server.impl;
+package com.hrm.company.service.impl;
 
 import com.hrm.company.mapper.CompanyMapper;
-import com.hrm.company.server.CompanyServer;
+import com.hrm.company.service.CompanyService;
 import com.hrm.model.company.entity.Company;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -14,7 +14,7 @@ import java.util.List;
  * @create: 2020-03-14 18:53
  **/
 @Service
-public class CompanyServerImpl implements CompanyServer {
+public class CompanyServiceImpl implements CompanyService {
     @Autowired
     private CompanyMapper companyMapper;
 

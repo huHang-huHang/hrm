@@ -11,7 +11,7 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
  * @author: Mr.DAMO
  * @create: 2020-03-14 17:49
  **/
-@SpringBootApplication
+@SpringBootApplication(scanBasePackages = "com.hrm")
 @EnableTransactionManagement(proxyTargetClass = true)
 public class Application {
     public static void main(String[] args) {
