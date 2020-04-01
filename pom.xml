@@ -19,6 +19,7 @@
         <module>hrm_common_model</module>
         <module>hrm_company</module>
         <module>hrm_system</module>
+        <module>ihrm_employee</module>
     </modules>
     <properties>
         <java.version>1.8</java.version>

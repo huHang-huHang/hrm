@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="hrm_system" />
+        <module name="ihrm_employee" />
         <module name="hrm_company" />
         <module name="hrm_common" />
         <module name="hrm_common_model" />
@@ -19,6 +20,7 @@
       <module name="hrm_common_model" options="-parameters" />
       <module name="hrm_company" options="-parameters" />
       <module name="hrm_system" options="-parameters" />
+      <module name="ihrm_employee" options="-parameters" />
     </option>
   </component>
 </project>
